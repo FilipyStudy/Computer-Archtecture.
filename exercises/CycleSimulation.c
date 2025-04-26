@@ -14,30 +14,23 @@
 #include <stdlib.h>
 
 
-int firstNumber, secondNumber;
-type_t* programCounter = calloc(1, 8);
-type_t* mAddressRegister = calloc (1, 8);
-
-
-type_t* fetch (firstNumber, secondNumber) {
+type_t* fetch () {
 	return type_t*
 
 }
 
-type_t* decode (int argv, [[maybe_unused]]char* argc[]) {
+type_t* decode () {
 	return type_t*
 }
 
-type_t* compute (int argv, [[maybe_unused]]char* argc[]) {
+type_t* compute () {
 	return type_t*
 }
 
-type_t* store (int argv, [[maybe_unused]]char* argc[]) {
+type_t* store () {
 	return type_t*
 }
 
 int main (int argv, [[maybe_unused]] char* argc[argv + 1]){
-	scanf("%d", &firstNumber);
-	scanf("%d", &secondNumber);
 	return EXIT_SUCCESS;
 }
